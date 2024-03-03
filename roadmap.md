@@ -1,11 +1,11 @@
 # Starlink Roadmap
 
 ## 0.1.0
-- [ ] layout struct
+- [X] layout struct
 - [ ] view api
-- [ ] computation of layout
-- [ ] absolute positioning
-- [ ] relative positioning
+- [ ] layout computation
+    - [ ] absolute positioning
+    - [ ] relative positioning
 
 ## Features
 - [ ] flex
@@ -24,21 +24,22 @@
     - [ ] flex
     - [ ] grid
 - [ ] constraints
-- [ ] margin
-- [ ] padding
-- [ ] border space
-- [ ] absolute positioning
-- [ ] relative positioning
-- [ ] width + height
+    - [ ] margin
+    - [ ] padding
+    - [ ] border space
+    - [ ] absolute positioning
+    - [ ] relative positioning
+    - [ ] width + height
 - [ ] rotations
 
 ## API
 - [ ] layout struct
     - a layout with a provided space to work in (composed of views)
     - [ ] nested layouts
-- [ ] sizes
+- [X] sizes
 - [ ] chainable syntax
 - [ ] ltr + rtl support
+- [ ] extensive traits for addon functionality (inspired by euclid)
 
 ## Long-term Goals
 - [ ] compose with other types of layout

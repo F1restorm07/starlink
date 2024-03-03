@@ -2,4 +2,4 @@
 ---
 **a manual layout engine**
 
-inspired by [taffy](https://github.com/DioxusLabs/taffy) and [pinlayout](https://github.com/layoutBox/PinLayout)
+inspired by [ratatui](https://github.com/ratatui-org/ratatui) and [embedded-layout](https://github.com/bugadani/embedded-layout)
