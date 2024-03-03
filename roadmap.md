@@ -35,7 +35,8 @@
 ## API
 - [ ] layout struct
     - a layout with a provided space to work in (composed of views)
-    - [ ] nested layouts
+    - [X] nested layouts
+        - the layout struct implements the View trait
 - [X] sizes
 - [ ] chainable syntax
 - [ ] ltr + rtl support
