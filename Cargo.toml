@@ -5,4 +5,5 @@ edition = "2021"
 
 [dependencies]
 # slotmap = { version = "1.0.7", default-features = false }
-hashbrown = { version = "0.14.3", default-features = false }
+# hashbrown = { version = "0.14.3", default-features = false, features = ["ahash"] }
+hashbrown = "0.14.3"

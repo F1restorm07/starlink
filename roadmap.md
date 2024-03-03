@@ -1,8 +1,8 @@
 # Starlink Roadmap
 
 ## 0.1.0
-- [ ] layout tree
-- [ ] node api
+- [ ] layout struct
+- [ ] view api
 - [ ] computation of layout
 - [ ] absolute positioning
 - [ ] relative positioning
@@ -30,11 +30,12 @@
 - [ ] absolute positioning
 - [ ] relative positioning
 - [ ] width + height
+- [ ] rotations
 
 ## API
-- [ ] layout tree
-    - [ ] nodes
-    - compute layout on per node basis
+- [ ] layout struct
+    - a layout with a provided space to work in (composed of views)
+    - [ ] nested layouts
 - [ ] sizes
 - [ ] chainable syntax
 - [ ] ltr + rtl support
